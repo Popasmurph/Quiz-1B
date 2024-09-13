@@ -66,6 +66,9 @@ static void displayGrades(int grades[5])
         case 0:
             letterGrade = 'F';
             break;
+        default:
+            cout << "Invalid input. Assigning F. \n";
+            break;
         }
         cout << "In letter grade, their grade is " << letterGrade << "\n";
     }
